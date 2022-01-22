@@ -33,7 +33,7 @@ const metrics = [
         preMint: 31684,
         bonus: 0,
         vestingStart: getTime(TGE, 0),
-        vestingEnds: getTime(TGE, 365),
+        vestingEnds: getTime(TGE, 1095),
     },
     {
         name: "Team",
@@ -41,15 +41,15 @@ const metrics = [
         preMint: 0,
         bonus: 10,
         vestingStart: getTime(TGE, 30*9),
-        vestingEnds: getTime(getTime(TGE, 30*9), 12*30),
+        vestingEnds: getTime(getTime(TGE, 30*9), 48*30),
     },
     {
         name: "Foundation",
         totalTokens: 4000000,
         preMint: 0,
-        bonus: 10,
-        vestingStart: getTime(TGE, 30*9),
-        vestingEnds: getTime(getTime(TGE, 30*9), 12*30),
+        bonus: 0,
+        vestingStart: getTime(TGE, 30*18),
+        vestingEnds: getTime(getTime(TGE, 30*9), 39*30),
     },
     {
         name: "Advisor",
@@ -57,7 +57,7 @@ const metrics = [
         preMint: 200000,
         bonus: 10,
         vestingStart: getTime(TGE, 30*3),
-        vestingEnds: getTime(getTime(TGE, 30*3), 30*9),
+        vestingEnds: getTime(getTime(TGE, 30*3), 30*48),
     },
     {
         name: "Ecosystem",
@@ -65,7 +65,7 @@ const metrics = [
         preMint: 406720,
         bonus: 7,
         vestingStart: getTime(TGE, 30*3),
-        vestingEnds: getTime(getTime(TGE, 30*3), 17*30),
+        vestingEnds: getTime(getTime(TGE, 30*3), 60*30),
     }
 ]
 
